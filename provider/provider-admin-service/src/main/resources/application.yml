@@ -1,0 +1,46 @@
+base:
+  config:
+    tidb:
+      hostname: 127.0.0.1
+      port: 3306
+    nacos:
+#      hostname: x
+#      port: 80
+        hostname: 127.0.0.1
+        port: 8848
+
+spring:
+  application:
+    name: ums-admin-provider
+  main:
+    allow-bean-definition-overriding: true
+  datasource:
+    type: com.zaxxer.hikari.HikariDataSource
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://${base.config.tidb.hostname}:${base.config.tidb.port}/ums_admin?useUnicode=true&characterEncoding=utf-8&serverTimezone=Hongkong&useSSL=false
+    username: root
+    password: 19910205
+    hikari:
+      minimum-idle: 5
+      idle-timeout: 600000
+      maximum-pool-size: 10
+      auto-commit: true
+      pool-name: MyHikariCP
+      max-lifetime: 1800000
+      connection-timeout: 30000
+      connection-test-query: SELECT 1
+
+dubbo:
+  scan:
+    base-packages: cn.passwored.provider.service
+  protocol:
+    name: dubbo
+    port: -1
+    serialization: kryo
+  registry:
+    address: nacos://${base.config.nacos.hostname}
+    port: ${base.config.nacos.port}
+
+mybatis:
+  type-aliases-package: cn.passwored.provider.domain
+  mapper-locations: classpath:mapper/*.xml

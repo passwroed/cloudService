@@ -17,4 +17,5 @@ public class DubboSentinelConfiguration {
     public SentinelResourceAspect sentinelResourceAspect() {
         return new SentinelResourceAspect();
     }
+
 }

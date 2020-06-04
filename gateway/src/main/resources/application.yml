@@ -1,8 +1,10 @@
 base:
   config:
     nacos:
-      hostname: nacos.passwored.cn
-      port: 80
+#      hostname: nacos.passwored.cn
+#      port: 80
+      hostname: 127.0.0.1
+      port: 8848
 
 spring:
   application:

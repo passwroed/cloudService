@@ -2,18 +2,33 @@
 <project version="4">
   <component name="CompilerConfiguration">
     <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
       <profile name="Maven default annotation processors profile" enabled="true">
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="configuration-sentinel" />
-        <module name="frontend" />
+        <module name="business-reg-feign" />
         <module name="gateway" />
+        <module name="business-reg-service" />
+        <module name="configuration-sentinel" />
+        <module name="commons-dto" />
+        <module name="frontend" />
+        <module name="commons-provider" />
+        <module name="provider-admin-service" />
+        <module name="commons-utils" />
+        <module name="provider-admin-api" />
         <module name="configuration-feign" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="business" target="1.8" />
+      <module name="business-reg-feign" target="1.8" />
+      <module name="business-reg-service" target="1.8" />
       <module name="cloudService" target="1.8" />
+      <module name="commons" target="1.8" />
+      <module name="commons-dto" target="1.8" />
+      <module name="commons-provider" target="1.8" />
+      <module name="commons-utils" target="1.8" />
       <module name="configuration" target="1.8" />
       <module name="configuration-feign" target="1.8" />
       <module name="configuration-sentinel" target="1.8" />
@@ -21,15 +36,26 @@
       <module name="frontend" target="1.8" />
       <module name="gateway" target="1.8" />
       <module name="provider" target="1.8" />
+      <module name="provider-admin-api" target="1.8" />
+      <module name="provider-admin-service" target="1.8" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="business" options="-parameters" />
+      <module name="business-reg-feign" options="-parameters" />
+      <module name="business-reg-service" options="-parameters" />
+      <module name="commons" options="-parameters" />
+      <module name="commons-dto" options="-parameters" />
+      <module name="commons-provider" options="-parameters" />
+      <module name="commons-utils" options="-parameters" />
       <module name="configuration" options="-parameters" />
       <module name="configuration-feign" options="-parameters" />
       <module name="configuration-sentinel" options="-parameters" />
       <module name="frontend" options="-parameters" />
       <module name="gateway" options="-parameters" />
+      <module name="provider-admin-api" options="-parameters" />
+      <module name="provider-admin-service" options="-parameters" />
     </option>
   </component>
 </project>
