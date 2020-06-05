@@ -1,11 +1,10 @@
-package cn.passwored.business.RegController;
+package cn.passwored.business.controller;
 
 import cn.passwored.commons.dto.ResponseResult;
 import cn.passwored.provider.api.UmsAdminService;
 import cn.passwored.provider.domain.UmsAdmin;
 import org.apache.dubbo.config.annotation.Reference;
 import org.springframework.http.HttpStatus;
-import org.springframework.web.bind.annotation.CrossOrigin;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
