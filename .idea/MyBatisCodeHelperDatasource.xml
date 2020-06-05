@@ -23,6 +23,8 @@
                   <option name="javaMapperPath" value="$PROJECT_DIR$/provider/provider-admin-service/src/main/java" />
                   <option name="javaModelPacakge" value="cn.passwored.provider.domain" />
                   <option name="javaModelPath" value="$PROJECT_DIR$/provider/provider-admin-service/src/main/java" />
+                  <option name="javaServiceInterfacePath" value="$PROJECT_DIR$/provider/provider-admin-service/src/main/java" />
+                  <option name="javaServicePath" value="$PROJECT_DIR$/provider/provider-admin-service/src/main/java" />
                   <option name="xmlPackage" value="mapper" />
                   <option name="xmlPath" value="$PROJECT_DIR$/provider/provider-admin-service/src/main/resources" />
                 </UserPackageAndPathInfoByModule>
