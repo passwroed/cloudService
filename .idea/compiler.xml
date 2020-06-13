@@ -7,23 +7,29 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="business-reg-feign" />
-        <module name="gateway" />
-        <module name="business-reg-service" />
-        <module name="configuration-sentinel" />
-        <module name="commons-dto" />
-        <module name="frontend" />
+        <module name="cloud" />
         <module name="commons-provider" />
-        <module name="provider-admin-service" />
-        <module name="commons-utils" />
-        <module name="provider-admin-api" />
+        <module name="gateway" />
+        <module name="business-oauth2-service" />
+        <module name="frontend" />
+        <module name="business-oauth2-feign" />
         <module name="configuration-feign" />
+        <module name="commons-dto" />
+        <module name="business-reg-service" />
+        <module name="commons-utils" />
+        <module name="business-reg-feign" />
+        <module name="provider-admin-service" />
+        <module name="configuration-sentinel" />
+        <module name="provider-admin-api" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="business" target="1.8" />
+      <module name="business-oauth2-feign" target="1.8" />
+      <module name="business-oauth2-service" target="1.8" />
       <module name="business-reg-feign" target="1.8" />
       <module name="business-reg-service" target="1.8" />
+      <module name="cloud" target="1.8" />
       <module name="cloudService" target="1.8" />
       <module name="commons" target="1.8" />
       <module name="commons-dto" target="1.8" />
@@ -43,8 +49,11 @@
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="business" options="-parameters" />
+      <module name="business-oauth2-feign" options="-parameters" />
+      <module name="business-oauth2-service" options="-parameters" />
       <module name="business-reg-feign" options="-parameters" />
       <module name="business-reg-service" options="-parameters" />
+      <module name="cloud" options="-parameters" />
       <module name="commons" options="-parameters" />
       <module name="commons-dto" options="-parameters" />
       <module name="commons-provider" options="-parameters" />

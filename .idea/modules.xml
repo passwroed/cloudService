@@ -3,8 +3,11 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/business/business.iml" filepath="$PROJECT_DIR$/business/business.iml" />
+      <module fileurl="file://$PROJECT_DIR$/business/business-oauth2-feign/business-oauth2-feign.iml" filepath="$PROJECT_DIR$/business/business-oauth2-feign/business-oauth2-feign.iml" />
+      <module fileurl="file://$PROJECT_DIR$/business/business-oauth2-service/business-oauth2-service.iml" filepath="$PROJECT_DIR$/business/business-oauth2-service/business-oauth2-service.iml" />
       <module fileurl="file://$PROJECT_DIR$/business/business-reg-feign/business-reg-feign.iml" filepath="$PROJECT_DIR$/business/business-reg-feign/business-reg-feign.iml" />
       <module fileurl="file://$PROJECT_DIR$/business/business-reg-service/business-reg-service.iml" filepath="$PROJECT_DIR$/business/business-reg-service/business-reg-service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/cloud/cloud.iml" filepath="$PROJECT_DIR$/cloud/cloud.iml" />
       <module fileurl="file://$PROJECT_DIR$/cloudService.iml" filepath="$PROJECT_DIR$/cloudService.iml" />
       <module fileurl="file://$PROJECT_DIR$/commons/commons.iml" filepath="$PROJECT_DIR$/commons/commons.iml" />
       <module fileurl="file://$PROJECT_DIR$/commons/commons-dto/commons-dto.iml" filepath="$PROJECT_DIR$/commons/commons-dto/commons-dto.iml" />
