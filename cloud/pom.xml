@@ -11,6 +11,10 @@
 
     <artifactId>cloud</artifactId>
     <packaging>pom</packaging>
+    <modules>
+        <module>cloud-upload-service</module>
+        <module>cloud-upload-feign</module>
+    </modules>
     <dependencies>
         <!-- Spring Cloud -->
         <dependency>
@@ -39,21 +43,6 @@
         </dependency>
 
         <!-- Projects -->
-<!--        <dependency>-->
-<!--            <groupId>com.funtl.myshop.plus</groupId>-->
-<!--            <artifactId>commons-dto</artifactId>-->
-<!--            <version>${project.parent.version}</version>-->
-<!--        </dependency>-->
-<!--        <dependency>-->
-<!--            <groupId>com.funtl.myshop.plus</groupId>-->
-<!--            <artifactId>commons-utils</artifactId>-->
-<!--            <version>${project.parent.version}</version>-->
-<!--        </dependency>-->
-<!--        <dependency>-->
-<!--            <groupId>com.funtl.myshop.plus</groupId>-->
-<!--            <artifactId>configuration-feign</artifactId>-->
-<!--            <version>${project.parent.version}</version>-->
-<!--        </dependency>-->
         <dependency>
             <groupId>cn.passwored</groupId>
             <artifactId>commons-dto</artifactId>

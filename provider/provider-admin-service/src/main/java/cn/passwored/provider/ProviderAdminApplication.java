@@ -13,6 +13,7 @@ import tk.mybatis.spring.annotation.MapperScan;
 @SpringBootApplication(scanBasePackageClasses = {ProviderAdminApplication.class, DubboSentinelConfiguration.class})
 @MapperScan(basePackages = "cn.passwored.provider.mapper")
 public class ProviderAdminApplication {
+    
     public static void main(String[] args) {
         SpringApplication.run(ProviderAdminApplication.class, args);
     }

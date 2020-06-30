@@ -45,7 +45,7 @@ spring:
             - StripPrefix=1
 
 server:
-  port: 8888
+  port: 8866
 
 # 配置日志级别，方别调试
 logging:

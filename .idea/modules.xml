@@ -8,6 +8,8 @@
       <module fileurl="file://$PROJECT_DIR$/business/business-reg-feign/business-reg-feign.iml" filepath="$PROJECT_DIR$/business/business-reg-feign/business-reg-feign.iml" />
       <module fileurl="file://$PROJECT_DIR$/business/business-reg-service/business-reg-service.iml" filepath="$PROJECT_DIR$/business/business-reg-service/business-reg-service.iml" />
       <module fileurl="file://$PROJECT_DIR$/cloud/cloud.iml" filepath="$PROJECT_DIR$/cloud/cloud.iml" />
+      <module fileurl="file://$PROJECT_DIR$/cloud/cloud-upload-feign/cloud-upload-feign.iml" filepath="$PROJECT_DIR$/cloud/cloud-upload-feign/cloud-upload-feign.iml" />
+      <module fileurl="file://$PROJECT_DIR$/cloud/cloud-upload-service/cloud-upload-service.iml" filepath="$PROJECT_DIR$/cloud/cloud-upload-service/cloud-upload-service.iml" />
       <module fileurl="file://$PROJECT_DIR$/cloudService.iml" filepath="$PROJECT_DIR$/cloudService.iml" />
       <module fileurl="file://$PROJECT_DIR$/commons/commons.iml" filepath="$PROJECT_DIR$/commons/commons.iml" />
       <module fileurl="file://$PROJECT_DIR$/commons/commons-dto/commons-dto.iml" filepath="$PROJECT_DIR$/commons/commons-dto/commons-dto.iml" />
